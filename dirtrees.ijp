@@ -4,7 +4,7 @@ coclass 'jproject'
 
 PRIMARYFILES=: '~Addons/general/dirtrees/dirtrees_src'
 
-PRIMARYLIBS=: 'dir'
+PRIMARYLIBS=: ''
 
 DEVFILES=: ''
 
