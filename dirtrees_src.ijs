@@ -1,5 +1,7 @@
 NB. Verbs for copying and deleting directory trees
 
+require 'general/dirutils'
+
 NB.*copytree v Copies directory tree from directory y to directory x
 NB. form: ToDir copytree FromDir
 NB. returns: 2-item numeric list
