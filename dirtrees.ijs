@@ -1,10 +1,10 @@
-NB. built from project: ~user/jsrc/addons/general/dirtrees/dirtrees
+NB. built from project: ~Addons/general/dirtrees/dirtrees
 NB. Verbs for copying and deleting directory trees
+
+script_z_ '~addons/general/dirtrees/dirtrees.ijs'
 
 coclass 'rgstrees'
 
-
-require 'general/dirutils'
 
 NB.*copytree v Copies directory tree from directory y to directory x
 NB. form: ToDir copytree FromDir

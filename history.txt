@@ -1,5 +1,9 @@
 general/dirtrees - change history
 
+== 1.0.3 ==
+ * chg: standardize testing methodology
+ * chg: method of referencing `general/dirutils`
+
 == 1.0.2 ==
  * fix addon dependency
 

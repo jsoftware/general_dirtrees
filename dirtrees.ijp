@@ -4,16 +4,16 @@ coclass 'jproject'
 
 PRIMARYFILES=: '~Addons/general/dirtrees/dirtrees_src'
 
-PRIMARYLIBS=: ''
+PRIMARYLIBS=: 'dirtrees'
 
 DEVFILES=: ''
 
 DEVLIBS=: ''
 
 OTHERFILES=: 0 : 0
-~Addons/general/dirtrees/manifest.ijs
-~Addons/general/dirtrees/test.ijs
 ~Addons/general/dirtrees/history.txt
+~Addons/general/dirtrees/manifest.ijs
+~Addons/general/dirtrees/test_dirtrees.ijs
 )
 
 TARGETFILE=: '~Addons/general/dirtrees/dirtrees.ijs'
