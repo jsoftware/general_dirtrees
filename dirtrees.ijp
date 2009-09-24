@@ -1,10 +1,10 @@
-NB. project file: c:/users/rsherloc/documents/j602-user/jsrc/addons/general/dirtrees/dirtrees
+NB. project file: ~Addons/general/dirtrees/dirtrees
 
 coclass 'jproject'
 
-PRIMARYFILES=: '~Addons/general/dirtrees/dirtrees_src'
+PRIMARYFILES=: '~Addons/general/dirtrees/dirtrees'
 
-PRIMARYLIBS=: 'dirtrees'
+PRIMARYLIBS=: ''
 
 DEVFILES=: ''
 
@@ -13,12 +13,12 @@ DEVLIBS=: ''
 OTHERFILES=: 0 : 0
 ~Addons/general/dirtrees/history.txt
 ~Addons/general/dirtrees/manifest.ijs
-~Addons/general/dirtrees/test_dirtrees.ijs
+~Addons/general/dirtrees/test/test_dirtrees.ijs
 )
 
-TARGETFILE=: '~Addons/general/dirtrees/dirtrees.ijs'
+TARGETFILE=: ''
 
-TARGETLOCALE=: 'rgstrees'
+TARGETLOCALE=: ''
 
 TARGETHEADER=: ''
 
@@ -30,7 +30,7 @@ PREBUILDFILE=: ''
 
 POSTBUILDFILE=: ''
 
-TESTFILE=: '~Addons/general/dirtrees/test_src.ijs'
+TESTFILE=: '~Addons/general/dirtrees/test/test_src.ijs'
 
 NOTES=: ''
 

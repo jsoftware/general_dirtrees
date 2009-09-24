@@ -23,5 +23,5 @@ FILES=: 0 : 0
 history.txt
 manifest.ijs
 dirtrees.ijs
-test_dirtrees.ijs
+test/test_dirtrees.ijs
 )

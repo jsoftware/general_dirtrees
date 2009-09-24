@@ -1,10 +1,8 @@
-NB. built from project: ~Addons/general/dirtrees/dirtrees
 NB. Verbs for copying and deleting directory trees
 
-script_z_ '~addons/general/dirtrees/dirtrees.ijs'
+require 'general/dirutils'
 
-coclass 'rgstrees'
-
+coclass 'rgsdirtrees'
 
 NB.*copytree v Copies directory tree from directory y to directory x
 NB. form: ToDir copytree FromDir
@@ -48,7 +46,5 @@ fcopy=: fwrite~ fread
 
 NB. =========================================================
 NB. Declarations in z locale
-copytree_z_=: copytree_rgstrees_
-deltree_z_=: deltree_rgstrees_
-
-
+copytree_z_=: copytree_rgsdirtrees_
+deltree_z_=: deltree_rgsdirtrees_
