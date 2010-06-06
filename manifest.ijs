@@ -12,7 +12,7 @@ LABCATEGORY=: 'General'
 
 VERSION=: '1.0.2'
 
-RELEASE=: 'j602'
+RELEASE=: 'j602 701'
 DEPENDS=: 0 : 0
 general/dirutils
 )
