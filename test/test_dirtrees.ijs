@@ -5,7 +5,7 @@ load 'general/dirtrees'
 load 'general/dirtrees/test/test_dirtrees'
 )
 
-SRCDIR=: jpath '~.system/tools'
+SRCDIR=: jpath '~tools'
 TRGDIR=: jpath '~temp/tools'
 isMatch=: 'no difference' -: _1 {:: [: <;._2 LF ,~ ]
 

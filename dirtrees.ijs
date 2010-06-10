@@ -12,7 +12,7 @@ NB.       0{ number of directories created
 NB.       1{ number of files successfully copied
 NB. Any existing files of the same name will be written over.
 copytree=: 4 : 0
-  'todir fromdir'=. addPS each x;y
+  'todir fromdir'=. termsep_rgsdirutils_ each x;y
   if. -.direxist fromdir do. 0 0 return. end. NB. exit if fromdir not found
   dprf=. ] }.&.>~ [: # [                      NB. drops #x chars from beginning of each y
   aprf=. ] ,&.>~ [: < [                       NB. catenates x to start of each y
