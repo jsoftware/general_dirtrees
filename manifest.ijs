@@ -17,7 +17,7 @@ DEPENDS=: 0 : 0
 general/dirutils
 )
 
-PLATFORMS=: 'win linux darwin'
+PLATFORMS=: ''
 
 FILES=: 0 : 0
 history.txt
