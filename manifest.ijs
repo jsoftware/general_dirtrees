@@ -10,7 +10,7 @@ Copyright 2008 (C) Ric Sherlock
 
 LABCATEGORY=: 'General'
 
-VERSION=: '1.0.3'
+VERSION=: '1.0.4'
 
 RELEASE=: 'j602 j701'
 DEPENDS=: 0 : 0
