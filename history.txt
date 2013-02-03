@@ -1,5 +1,8 @@
 general/dirtrees - change history
 
+== 1.0.5 ==
+ * chg: update for j801
+
 == 1.0.3 ==
  * chg: j701
  * chg: standardize testing methodology
